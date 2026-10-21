@@ -1,4 +1,4 @@
-ARG NODE_VERSION=16-alpine
+ARG NODE_VERSION=26-alpine
 FROM node:${NODE_VERSION} AS build
 WORKDIR /app
 COPY . .
